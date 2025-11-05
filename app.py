@@ -106,9 +106,9 @@ ALL_METRO_NAMES = [
 ]
 
 # ========== DEVELOPER CONFIGURATION ==========
-UI_SCALE = 0.85
+UI_SCALE = 1.0
 CHART_HEIGHT_SCALE = 0.88
-CHART_TEXT_SCALE = 0.86
+CHART_TEXT_SCALE = 0.90
 
 CHART_CONFIG = {
     'treemap': {
@@ -137,9 +137,9 @@ CHART_CONFIG = {
         'margin': {'t': 50, 'l': 14, 'r': 14, 'b': 20}
     },
     'score_distribution': {
-        'scale': 0.9,
-        'text': 1.0,
-        'margin': {'t': 40, 'l': 24, 'r': 18, 'b': 32}
+        'scale': 1.3,
+        'text': 1.4,
+        'margin': {'t': 50, 'l': 40, 'r': 30, 'b': 40}
     },
     'employers': {
         'scale': 1.2,
@@ -385,21 +385,12 @@ def inject_css():
         }}
 
         section.main > div:first-child {{
-            padding-top: 0rem;  /* Remove all top padding */
+            padding-top: 1.1rem;
         }}
-        
+
         .block-container {{
-            padding: 0.2rem 0.85rem 0.6rem;
+            padding: 0.7rem 0.85rem 0.6rem;
             max-width: 960px;
-        }}
-        
-        .page-header {{
-            margin: 0 auto 0.1rem;
-        }}
-        
-        .hud {{
-            margin: 0 auto 0.2rem;
-            padding: 8px 14px;  /* Reduced from 10px */
         }}
 
         .maxw,
@@ -1066,71 +1057,90 @@ def render_score_distribution(metro_key: str, player_score: int) -> None:
     percent_tied = equal_to / total_samples * 100
     percent_outscored = max(0.0, min(100.0, percent_outscored))
 
-    fig = go.Figure()
-    fig.add_trace(go.Histogram(
-        x=scores,
-        xbins=dict(start=-5, end=55, size=10),
-        histnorm='percent',
-        marker=dict(color=REVELIO_PALETTE["purple"], line=dict(width=0)),
-        opacity=0.8,
-        hovertemplate='Score: %{x:.0f}<br>Share: %{y:.1f}%<extra></extra>'
-    ))
+    # Create histogram data with bin counts
+    bin_edges = list(range(-5, 56, 10))
+    bin_centers = [(bin_edges[i] + bin_edges[i+1]) / 2 for i in range(len(bin_edges)-1)]
 
-    fig.add_vline(
-        x=player_score,
-        line_color=REVELIO_PALETTE["accent"],
-        line_width=4,
-        line_dash="dash",
-        annotation_text="Your score",
-        annotation_position="top right"
-    )
+    # Count scores in each bin
+    bin_counts = []
+    for i in range(len(bin_edges)-1):
+        count = sum(1 for s in scores if bin_edges[i] <= s < bin_edges[i+1])
+        bin_counts.append(count)
+
+    # Convert to percentages
+    bin_percentages = [count / total_samples * 100 for count in bin_counts]
+
+    # Determine which bin contains the player's score
+    player_bin_idx = None
+    for i in range(len(bin_edges)-1):
+        if bin_edges[i] <= player_score < bin_edges[i+1]:
+            player_bin_idx = i
+            break
+
+    # Create colors list - accent color for player's bin, purple for others
+    bar_colors = []
+    bar_names = []
+    for i in range(len(bin_centers)):
+        if i == player_bin_idx:
+            bar_colors.append(REVELIO_PALETTE["accent"])
+            bar_names.append('Your score')
+        else:
+            bar_colors.append(REVELIO_PALETTE["purple"])
+            bar_names.append('Other players')
+
+    fig = go.Figure()
+
+    # Add bars one by one so we can control colors
+    for i, (center, percentage, color, name) in enumerate(zip(bin_centers, bin_percentages, bar_colors, bar_names)):
+        is_player_bin = (i == player_bin_idx)
+        fig.add_trace(go.Bar(
+            x=[center],
+            y=[percentage],
+            width=9,  # Slightly less than 10 to create small gaps
+            marker=dict(
+                color=color,
+                line=dict(width=2 if is_player_bin else 0, color='white' if is_player_bin else color)
+            ),
+            opacity=1.0 if is_player_bin else 0.85,
+            name=name,
+            legendgroup=name,
+            showlegend=(i == player_bin_idx or (i == 0 and player_bin_idx is None) or (i == 1 and player_bin_idx == 0)),
+            hovertemplate=f'Score: {int(bin_edges[i])}-{int(bin_edges[i+1]-1)}<br>Share: {percentage:.1f}%<extra></extra>'
+        ))
 
     fig.update_layout(
-        height=get_chart_height('score_distribution', 340),
-        margin=get_margin('score_distribution', {'t': 40, 'l': 24, 'r': 18, 'b': 32}),
+        height=get_chart_height('score_distribution', 450),
+        margin=get_margin('score_distribution', {'t': 50, 'l': 40, 'r': 30, 'b': 40}),
         paper_bgcolor='white',
         plot_bgcolor='white',
         bargap=0.08,
+        barmode='group',
+        showlegend=True,
+        legend=dict(
+            orientation="h",
+            x=0.5,
+            xanchor="center",
+            y=1.12,
+            yanchor="bottom",
+            bgcolor="rgba(255, 255, 255, 0.95)",
+            bordercolor=REVELIO_PALETTE["grid"],
+            borderwidth=1,
+            font=dict(size=get_text_size('score_distribution', 16), weight=600)
+        ),
         xaxis=dict(
-            title='Player score (out of 50)',
-            title_font=dict(size=get_text_size('score_distribution', 14)),
-            tickfont=dict(size=get_text_size('score_distribution', 12)),
+            title='Player Score (out of 50)',
+            title_font=dict(size=get_text_size('score_distribution', 18), weight=600),
+            tickfont=dict(size=get_text_size('score_distribution', 16)),
             tickmode='array',
             tickvals=list(range(0, 51, 10)),
             range=[-2, 52]
         ),
         yaxis=dict(
-            title='Players (share of total)',
-            title_font=dict(size=get_text_size('score_distribution', 14)),
-            tickfont=dict(size=get_text_size('score_distribution', 12)),
+            title='Share of Players',
+            title_font=dict(size=get_text_size('score_distribution', 18), weight=600),
+            tickfont=dict(size=get_text_size('score_distribution', 16)),
             ticksuffix='%'
-        ),
-        shapes=[
-            dict(
-                type="line",
-                xref='x',
-                yref='paper',
-                x0=average_score,
-                x1=average_score,
-                y0=0,
-                y1=1,
-                line=dict(color=REVELIO_PALETTE["secondary"], width=2, dash="dot")
-            )
-        ],
-        annotations=[
-            dict(
-                x=average_score,
-                y=1.05,
-                xref='x',
-                yref='paper',
-                yanchor='bottom',
-                text="Group avg",
-                showarrow=True,
-                arrowhead=2,
-                arrowcolor=REVELIO_PALETTE["secondary"],
-                font=dict(size=get_text_size('score_distribution', 12))
-            )
-        ]
+        )
     )
 
     st.plotly_chart(fig, use_container_width=True, config={
@@ -1141,10 +1151,16 @@ def render_score_distribution(metro_key: str, player_score: int) -> None:
     percentile_text = f"{percent_outscored:.1f}%"
     tie_text = ""
     if percent_tied > 0:
-        tie_text = f" Another {percent_tied:.1f}% matched your score."
+        tie_text = f" Another <strong style='color: {REVELIO_PALETTE['primary']}; font-size: 1.2rem;'>{percent_tied:.1f}%</strong> matched your score."
+
+    # Make the summary text larger and more prominent
     st.markdown(
-        f"You outscored **{percentile_text}** of today's players for {METROS[metro_key]['name']}.{tie_text} "
-        f"Community average: **{average_score:.1f}**.",
+        f"<div style='font-size: 1.15rem; line-height: 1.6; margin-top: 1rem; padding: 0.8rem 1rem; "
+        f"background: {REVELIO_PALETTE['subtle_bg']}; border-radius: 8px; border-left: 4px solid {REVELIO_PALETTE['accent']};'>"
+        f"You outscored <strong style='color: {REVELIO_PALETTE['accent']}; font-size: 1.25rem;'>{percentile_text}</strong> "
+        f"of today's players for <strong>{METROS[metro_key]['name']}</strong>.{tie_text}"
+        f"</div>",
+        unsafe_allow_html=True
     )
     st.caption("Score distribution is simulated placeholder data for the prototype.")
 
