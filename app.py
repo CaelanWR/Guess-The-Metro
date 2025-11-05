@@ -385,7 +385,7 @@ def inject_css():
         }}
 
         section.main > div:first-child {{
-    padding-top: 0.3rem;  /* Changed from 1.1rem */
+    padding-top: 0rem;  /* Remove all top padding */
 }}
 
 .block-container {{
