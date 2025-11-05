@@ -106,6 +106,10 @@ ALL_METRO_NAMES = [
 ]
 
 # ========== DEVELOPER CONFIGURATION ==========
+UI_SCALE = 0.92
+CHART_HEIGHT_SCALE = 0.88
+CHART_TEXT_SCALE = 0.94
+
 CHART_CONFIG = {
     'treemap': {
         'scale': 1.1, 
@@ -371,23 +375,27 @@ def inject_css():
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+        :root {{
+            font-size: {UI_SCALE * 100:.0f}%;
+        }}
+
         html, body {{
             background-color: {REVELIO_PALETTE["subtle_bg"]};
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
         }}
 
         section.main > div:first-child {{
-            padding-top: 1.5rem;
+            padding-top: 1.1rem;
         }}
 
         .block-container {{
-            padding: 1rem 1rem 0.8rem;
-            max-width: 1040px;
+            padding: 0.7rem 0.85rem 0.6rem;
+            max-width: 960px;
         }}
 
         .maxw,
         .maxw-tight {{
-            max-width: 940px;
+            max-width: 880px;
             margin-left: auto;
             margin-right: auto;
         }}
@@ -395,7 +403,7 @@ def inject_css():
         h1 {{
             color: {REVELIO_PALETTE["text"]};
             font-weight: 700;
-            font-size: 1.5rem;
+            font-size: 1.35rem;
             letter-spacing: -0.02em;
             margin: 0 0 0.3rem;
         }}
@@ -415,7 +423,7 @@ def inject_css():
         p {{
             margin: 0.08rem 0;
             line-height: 1.35;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
         }}
 
         .stCaption {{
@@ -426,7 +434,7 @@ def inject_css():
 
         .card {{
             background: white;
-            padding: 0.7rem 0.85rem;
+            padding: 0.55rem 0.75rem;
             border-radius: 12px;
             border: 1px solid {REVELIO_PALETTE["grid"]};
             box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
@@ -476,7 +484,7 @@ def inject_css():
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 0.75rem;
+            gap: 0.6rem;
         }}
 
         .page-header__logo {{
@@ -492,17 +500,17 @@ def inject_css():
 
         .layout-split {{
             display: flex;
-            gap: 1.1rem;
+            gap: 0.8rem;
             align-items: flex-start;
         }}
 
         .hud {{
             display: grid;
             grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.6fr);
-            gap: 14px;
+            gap: 12px;
             align-items: center;
             width: 100%;
-            padding: 12px 16px;
+            padding: 10px 14px;
             background: white;
             border: 1px solid {REVELIO_PALETTE["grid"]};
             border-radius: 14px;
@@ -1193,12 +1201,12 @@ def show_result_modal(metro_key: str):
 def get_chart_height(chart_type, base_height):
     """Scale chart height based on individual chart configuration"""
     scale = CHART_CONFIG.get(chart_type, {}).get('scale', 1.0)
-    return int(base_height * scale)
+    return int(base_height * scale * CHART_HEIGHT_SCALE)
 
 def get_text_size(chart_type, base_size):
     """Scale text size based on individual chart configuration"""
     scale = CHART_CONFIG.get(chart_type, {}).get('text', 1.0)
-    return int(base_size * scale)
+    return int(base_size * scale * CHART_TEXT_SCALE)
 
 def get_margin(chart_type, defaults=None):
     """Get margin configuration for a chart type"""
