@@ -385,25 +385,22 @@ def inject_css():
         }}
 
         section.main > div:first-child {{
-    padding-top: 0rem;  /* Remove all top padding */
-}}
-
-.block-container {{
-    padding: 0.3rem 0.85rem 0.6rem;  /* Changed from 0.7rem */
-    max-width: 960px;
-}}
-
-.page-header {{
-    margin: 0 auto 0.2rem;  /* Changed from 0.5rem */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.6rem;
-}}
-
-.hud {{
-    margin: 0 auto 0.3rem;  /* Changed from 0.5rem */
-}}
+            padding-top: 0rem;  /* Remove all top padding */
+        }}
+        
+        .block-container {{
+            padding: 0.2rem 0.85rem 0.6rem;
+            max-width: 960px;
+        }}
+        
+        .page-header {{
+            margin: 0 auto 0.1rem;
+        }}
+        
+        .hud {{
+            margin: 0 auto 0.2rem;
+            padding: 8px 14px;  /* Reduced from 10px */
+        }}
 
         .maxw,
         .maxw-tight {{
