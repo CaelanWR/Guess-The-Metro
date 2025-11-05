@@ -1441,6 +1441,7 @@ if st.session_state.last_guess_wrong:
 def show_industry_treemap():
     """Optimized treemap with sector labels on larger boxes and subsectors inside, plus color legend"""
     st.markdown("#### Industry Breakdown")
+    st.markdown("_Share of total employment by sector and industry_")
 
     # Filter out very small sectors (less than 1% of total)
     total_headcount = industry['headcount'].sum()
