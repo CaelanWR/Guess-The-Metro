@@ -385,7 +385,7 @@ def inject_css():
         }}
 
         section.main > div:first-child {{
-            padding-top: 1.5rem;
+            padding-top: 3rem;
         }}
 
         .block-container {{
@@ -1170,11 +1170,12 @@ def render_result_card(won: bool, metro_key: str) -> None:
     score = st.session_state.get("score", 0)
     metro_info = METROS[metro_key]
     metro_name = metro_info['name']  # Already includes state abbreviation
-    
-    headline = f"Game Over — The city was {metro_name}"
+
     if won:
+        headline = f"Congratulations! — The city was {metro_name}"
         summary = f"You cracked the case in {guesses} guesses and banked {score}/50 points."
     else:
+        headline = f"Game Over — The city was {metro_name}"
         summary = f"{metro_name} kept its secret after {guesses} guesses. Final score: {score}/50."
     
     fact_list = build_city_fact_list_html(metro_key)
@@ -1197,14 +1198,20 @@ def show_result_modal(metro_key: str):
     score = st.session_state.get("score", 0)
     metro_info = METROS[metro_key]
     metro_name = metro_info['name']  # Already includes state abbreviation
-    
+
     highlight_items = build_city_fact_list_html(metro_key)
-    status_line = "You cracked the mystery metro!" if won else f"{metro_name} slipped away this time."
-    
+
+    if won:
+        modal_title = f"Congratulations! — The city was {metro_name}"
+        status_line = "You cracked the mystery metro!"
+    else:
+        modal_title = f"Game Over — The city was {metro_name}"
+        status_line = f"{metro_name} slipped away this time."
+
     st.markdown(
         f"""
         <div class="city-modal">
-            <h3>Game Over — The city was {metro_name}</h3>
+            <h3>{modal_title}</h3>
             <p>{html.escape(status_line)} The metro area was <strong>{html.escape(metro_name)}</strong>.</p>
             <p><strong>Final score:</strong> {score}/50.</p>
             <p>Labor market highlights:</p>
