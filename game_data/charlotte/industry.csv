@@ -1,0 +1,57 @@
+metro,sector,subsector,headcount,sector_pct,subsector_pct
+Charlotte,Financial Services,Banking,53350,22.0,50.0
+Charlotte,Financial Services,Insurance,26675,22.0,25.0
+Charlotte,Financial Services,Investment Management,16005,22.0,15.0
+Charlotte,Financial Services,Financial Advisory,10670,22.0,10.0
+Charlotte,Healthcare,Hospitals,27160,14.0,40.0
+Charlotte,Healthcare,Medical Research,6790,14.0,10.0
+Charlotte,Healthcare,Pharmaceutical,3395,14.0,5.0
+Charlotte,Healthcare,Healthcare Support,13580,14.0,20.0
+Charlotte,Healthcare,Outpatient Care,16975,14.0,25.0
+Charlotte,Technology,Software Development,16005,11.0,30.0
+Charlotte,Technology,IT Services,13337,11.0,25.0
+Charlotte,Technology,Data Analytics,10670,11.0,20.0
+Charlotte,Technology,Cybersecurity,5335,11.0,10.0
+Charlotte,Technology,Cloud Services,8002,11.0,15.0
+Charlotte,Professional Services,Consulting,1210,10.0,2.5
+Charlotte,Professional Services,Legal Services,11868,10.0,24.47
+Charlotte,Professional Services,Accounting,13590,10.0,28.02
+Charlotte,Professional Services,Marketing & PR,7827,10.0,16.14
+Charlotte,Professional Services,Architecture,14003,10.0,28.87
+Charlotte,Retail & Hospitality,Retail Stores,16690,10.0,34.41
+Charlotte,Retail & Hospitality,Restaurants & Bars,18133,10.0,37.39
+Charlotte,Retail & Hospitality,Hotels & Tourism,13675,10.0,28.2
+Charlotte,Manufacturing,Industrial Equipment,639,8.0,1.65
+Charlotte,Manufacturing,Food Processing,2837,8.0,7.31
+Charlotte,Manufacturing,Automotive Parts,793,8.0,2.05
+Charlotte,Manufacturing,Chemicals,25147,8.0,64.81
+Charlotte,Manufacturing,Electronics,9380,8.0,24.18
+Charlotte,Logistics & Transportation,Freight & Shipping,4537,7.0,13.37
+Charlotte,Logistics & Transportation,Warehousing,15209,7.0,44.8
+Charlotte,Logistics & Transportation,Courier Services,1831,7.0,5.39
+Charlotte,Logistics & Transportation,Logistics Management,3374,7.0,9.94
+Charlotte,Logistics & Transportation,Air Cargo,8997,7.0,26.5
+Charlotte,Construction,Commercial Construction,11084,6.0,38.09
+Charlotte,Construction,Residential Construction,3417,6.0,11.74
+Charlotte,Construction,Infrastructure,14597,6.0,50.16
+Charlotte,Education,Higher Education,777,5.0,3.21
+Charlotte,Education,K-12 Schools,11737,5.0,48.4
+Charlotte,Education,Private Schools,7298,5.0,30.1
+Charlotte,Education,Training & Development,4436,5.0,18.29
+Charlotte,Real Estate,Property Management,7681,3.0,52.79
+Charlotte,Real Estate,Commercial Real Estate,6095,3.0,41.89
+Charlotte,Real Estate,Residential Sales,773,3.0,5.31
+Charlotte,Government,Federal Agencies,3128,2.0,32.25
+Charlotte,Government,Local Government,1086,2.0,11.2
+Charlotte,Government,State Government,2309,2.0,23.81
+Charlotte,Government,Military & Defense,3175,2.0,32.73
+Charlotte,Energy & Utilities,Oil & Gas,1411,1.0,29.1
+Charlotte,Energy & Utilities,Renewable Energy,429,1.0,8.87
+Charlotte,Energy & Utilities,Electric Utilities,954,1.0,19.67
+Charlotte,Energy & Utilities,Water & Waste,2054,1.0,42.36
+Charlotte,Media & Entertainment,Broadcasting,2244,1.0,46.27
+Charlotte,Media & Entertainment,Music Production,2596,1.0,53.54
+Charlotte,Media & Entertainment,Event Management,9,1.0,0.19
+Charlotte,Non-Profit,Charitable Organizations,4603,2.0,47.46
+Charlotte,Non-Profit,Foundations,3479,2.0,35.87
+Charlotte,Non-Profit,Community Services,1617,2.0,16.67

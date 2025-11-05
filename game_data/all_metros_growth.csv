@@ -1,0 +1,69 @@
+metro,sector,annual_growth_rate_pct,five_year_earnings_growth_pct
+Memphis,Logistics & Transportation,2.74,14.5
+Memphis,Healthcare,4.17,22.7
+Memphis,Manufacturing,1.32,6.8
+Memphis,Retail & Hospitality,1.98,10.3
+Memphis,Professional Services,3.07,16.3
+Memphis,Technology,7.13,41.1
+Memphis,Education,1.65,8.5
+Memphis,Financial Services,2.41,12.6
+Memphis,Construction,3.51,18.8
+Memphis,Government,0.88,4.5
+Memphis,Energy & Utilities,1.65,8.5
+Memphis,Real Estate,2.3,12.0
+Memphis,Media & Entertainment,2.09,10.9
+Memphis,Non-Profit,2.19,11.4
+Charlotte,Financial Services,2.88,15.3
+Charlotte,Healthcare,4.98,27.5
+Charlotte,Technology,8.52,50.5
+Charlotte,Professional Services,3.67,19.7
+Charlotte,Retail & Hospitality,2.36,12.4
+Charlotte,Manufacturing,1.57,8.1
+Charlotte,Logistics & Transportation,3.28,17.5
+Charlotte,Construction,4.19,22.8
+Charlotte,Education,1.97,10.2
+Charlotte,Real Estate,2.75,14.5
+Charlotte,Government,1.05,5.4
+Charlotte,Energy & Utilities,1.97,10.2
+Charlotte,Media & Entertainment,2.49,13.1
+Charlotte,Non-Profit,2.62,13.8
+DC,Government,0.66,3.3
+DC,Professional Services,2.32,12.2
+DC,Technology,5.39,30.0
+DC,Healthcare,3.15,16.8
+DC,Education,1.24,6.4
+DC,Retail & Hospitality,1.49,7.7
+DC,Financial Services,1.82,9.4
+DC,Logistics & Transportation,2.07,10.8
+DC,Non-Profit,1.66,8.6
+DC,Real Estate,1.74,9.0
+DC,Construction,2.65,14.0
+DC,Media & Entertainment,1.58,8.2
+Pittsburgh,Healthcare,3.61,19.4
+Pittsburgh,Education,1.42,7.3
+Pittsburgh,Technology,6.17,34.9
+Pittsburgh,Professional Services,2.66,14.0
+Pittsburgh,Retail & Hospitality,1.71,8.8
+Pittsburgh,Manufacturing,1.14,5.8
+Pittsburgh,Financial Services,2.09,10.9
+Pittsburgh,Construction,3.04,16.2
+Pittsburgh,Government,0.76,3.9
+Pittsburgh,Logistics & Transportation,2.37,12.4
+Pittsburgh,Energy & Utilities,1.42,7.3
+Pittsburgh,Real Estate,1.99,10.4
+Pittsburgh,Media & Entertainment,1.8,9.3
+Pittsburgh,Non-Profit,1.9,9.9
+Houston,Energy & Utilities,2.16,11.3
+Houston,Healthcare,5.46,30.4
+Houston,Manufacturing,1.72,8.9
+Houston,Professional Services,4.02,21.8
+Houston,Logistics & Transportation,3.59,19.3
+Houston,Technology,9.34,56.3
+Houston,Construction,4.6,25.2
+Houston,Retail & Hospitality,2.59,13.6
+Houston,Financial Services,3.16,16.8
+Houston,Government,1.15,5.9
+Houston,Education,2.16,11.3
+Houston,Real Estate,3.02,16.0
+Houston,Media & Entertainment,2.73,14.4
+Houston,Non-Profit,2.87,15.2

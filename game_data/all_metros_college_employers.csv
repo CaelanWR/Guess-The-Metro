@@ -1,0 +1,16 @@
+metro,company,sector,headcount,avg_salary,education_type
+Memphis,FedEx Corporate,Professional Services,7500,81650,college
+Memphis,St. Jude Children's Research Hospital,Healthcare,4200,89700,college
+Memphis,International Paper,Manufacturing,3800,62100,college
+Charlotte,Bank of America Corporate,Financial Services,18000,98437,college
+Charlotte,Wells Fargo,Financial Services,12000,98437,college
+Charlotte,Atrium Health,Healthcare,9500,102375,college
+DC,Department of Defense,Government,45000,106250,college
+DC,Department of Homeland Security,Government,28000,106250,college
+DC,Booz Allen Hamilton,Professional Services,15000,110937,college
+Pittsburgh,UPMC,Healthcare,42000,95550,college
+Pittsburgh,University of [Name of City],Education,13500,63700,college
+Pittsburgh,Carnegie Mellon University,Education,8200,63700,college
+Houston,ExxonMobil,Energy & Utilities,28000,110700,college
+Houston,MD Anderson Cancer Center,Healthcare,22000,105300,college
+Houston,NASA Johnson Space Center,Government,11000,91800,college

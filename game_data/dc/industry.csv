@@ -1,0 +1,48 @@
+metro,sector,subsector,headcount,sector_pct,subsector_pct
+DC,Government,Federal Agencies,126720,32.0,55.0
+DC,Government,Local Government,27648,32.0,12.0
+DC,Government,State Government,18432,32.0,8.0
+DC,Government,Military & Defense,57600,32.0,25.0
+DC,Professional Services,Consulting,58320,18.0,45.0
+DC,Professional Services,Legal Services,32400,18.0,25.0
+DC,Professional Services,Accounting,19440,18.0,15.0
+DC,Professional Services,Marketing & PR,12960,18.0,10.0
+DC,Professional Services,Architecture,6480,18.0,5.0
+DC,Technology,Software Development,21600,12.0,25.0
+DC,Technology,IT Services,17280,12.0,20.0
+DC,Technology,Data Analytics,12960,12.0,15.0
+DC,Technology,Cybersecurity,30239,12.0,35.0
+DC,Technology,Cloud Services,4320,12.0,5.0
+DC,Healthcare,Hospitals,1262,9.0,1.95
+DC,Healthcare,Medical Research,27108,9.0,41.83
+DC,Healthcare,Pharmaceutical,21994,9.0,33.94
+DC,Healthcare,Healthcare Support,3127,9.0,4.83
+DC,Healthcare,Outpatient Care,11307,9.0,17.45
+DC,Education,Higher Education,24190,7.0,48.0
+DC,Education,K-12 Schools,11531,7.0,22.88
+DC,Education,Private Schools,10736,7.0,21.3
+DC,Education,Training & Development,3941,7.0,7.82
+DC,Retail & Hospitality,Retail Stores,1202,8.0,2.09
+DC,Retail & Hospitality,Restaurants & Bars,28003,8.0,48.62
+DC,Retail & Hospitality,Hotels & Tourism,28393,8.0,49.29
+DC,Financial Services,Banking,9194,4.0,31.92
+DC,Financial Services,Insurance,3796,4.0,13.18
+DC,Financial Services,Investment Management,3939,4.0,13.68
+DC,Financial Services,Financial Advisory,11869,4.0,41.22
+DC,Logistics & Transportation,Freight & Shipping,6934,3.0,32.1
+DC,Logistics & Transportation,Warehousing,6650,3.0,30.79
+DC,Logistics & Transportation,Courier Services,4615,3.0,21.37
+DC,Logistics & Transportation,Logistics Management,3132,3.0,14.5
+DC,Logistics & Transportation,Air Cargo,267,3.0,1.24
+DC,Non-Profit,Charitable Organizations,1120,3.0,5.19
+DC,Non-Profit,Foundations,14549,3.0,67.36
+DC,Non-Profit,Community Services,5929,3.0,27.45
+DC,Real Estate,Property Management,110,2.0,0.77
+DC,Real Estate,Commercial Real Estate,1278,2.0,8.88
+DC,Real Estate,Residential Sales,13011,2.0,90.36
+DC,Construction,Commercial Construction,37,1.0,0.52
+DC,Construction,Residential Construction,1293,1.0,17.96
+DC,Construction,Infrastructure,5869,1.0,81.52
+DC,Media & Entertainment,Broadcasting,3408,1.0,47.34
+DC,Media & Entertainment,Music Production,3055,1.0,42.44
+DC,Media & Entertainment,Event Management,735,1.0,10.21

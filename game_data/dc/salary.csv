@@ -1,0 +1,13 @@
+metro,sector,avg_salary,min_salary,max_salary,salary_spread
+DC,Government,85000,43142,126857,83715
+DC,Professional Services,88750,53476,124023,70547
+DC,Technology,115000,67265,162734,95469
+DC,Healthcare,97500,48818,146181,97363
+DC,Education,65000,33804,96195,62391
+DC,Retail & Hospitality,47500,22807,72192,49385
+DC,Financial Services,93750,48607,138892,90285
+DC,Logistics & Transportation,72500,38884,106115,67231
+DC,Non-Profit,60000,37875,82124,44249
+DC,Real Estate,80000,46116,113883,67767
+DC,Construction,70000,41787,98212,56425
+DC,Media & Entertainment,68750,41332,96167,54835

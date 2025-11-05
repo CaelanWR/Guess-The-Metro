@@ -1,0 +1,57 @@
+metro,sector,subsector,headcount,sector_pct,subsector_pct
+Memphis,Logistics & Transportation,Freight & Shipping,27000,24.0,30.0
+Memphis,Logistics & Transportation,Warehousing,25200,24.0,28.0
+Memphis,Logistics & Transportation,Courier Services,22500,24.0,25.0
+Memphis,Logistics & Transportation,Logistics Management,4500,24.0,5.0
+Memphis,Logistics & Transportation,Air Cargo,10800,24.0,12.0
+Memphis,Healthcare,Hospitals,17062,13.0,35.0
+Memphis,Healthcare,Medical Research,12187,13.0,25.0
+Memphis,Healthcare,Pharmaceutical,3900,13.0,8.0
+Memphis,Healthcare,Healthcare Support,9750,13.0,20.0
+Memphis,Healthcare,Outpatient Care,5850,13.0,12.0
+Memphis,Manufacturing,Industrial Equipment,10312,11.0,25.0
+Memphis,Manufacturing,Food Processing,12375,11.0,30.0
+Memphis,Manufacturing,Automotive Parts,8250,11.0,20.0
+Memphis,Manufacturing,Chemicals,6187,11.0,15.0
+Memphis,Manufacturing,Electronics,4125,11.0,10.0
+Memphis,Retail & Hospitality,Retail Stores,4402,12.0,9.78
+Memphis,Retail & Hospitality,Restaurants & Bars,28242,12.0,62.76
+Memphis,Retail & Hospitality,Hotels & Tourism,12354,12.0,27.45
+Memphis,Professional Services,Consulting,8241,8.0,27.47
+Memphis,Professional Services,Legal Services,1531,8.0,5.1
+Memphis,Professional Services,Accounting,1531,8.0,5.1
+Memphis,Professional Services,Marketing & PR,540,8.0,1.8
+Memphis,Professional Services,Architecture,18156,8.0,60.52
+Memphis,Technology,Software Development,2309,5.0,12.32
+Memphis,Technology,IT Services,3094,5.0,16.5
+Memphis,Technology,Data Analytics,52,5.0,0.28
+Memphis,Technology,Cybersecurity,8804,5.0,46.96
+Memphis,Technology,Cloud Services,4489,5.0,23.94
+Memphis,Education,Higher Education,6236,7.0,23.76
+Memphis,Education,K-12 Schools,5243,7.0,19.97
+Memphis,Education,Private Schools,5293,7.0,20.17
+Memphis,Education,Training & Development,9477,7.0,36.1
+Memphis,Financial Services,Banking,6437,6.0,28.61
+Memphis,Financial Services,Insurance,4893,6.0,21.75
+Memphis,Financial Services,Investment Management,2978,6.0,13.24
+Memphis,Financial Services,Financial Advisory,8189,6.0,36.4
+Memphis,Construction,Commercial Construction,2958,5.0,15.78
+Memphis,Construction,Residential Construction,6804,5.0,36.29
+Memphis,Construction,Infrastructure,8986,5.0,47.93
+Memphis,Government,Federal Agencies,2954,4.0,19.7
+Memphis,Government,Local Government,7461,4.0,49.75
+Memphis,Government,State Government,1080,4.0,7.2
+Memphis,Government,Military & Defense,3503,4.0,23.35
+Memphis,Energy & Utilities,Oil & Gas,3255,2.0,43.41
+Memphis,Energy & Utilities,Renewable Energy,172,2.0,2.3
+Memphis,Energy & Utilities,Electric Utilities,3393,2.0,45.24
+Memphis,Energy & Utilities,Water & Waste,678,2.0,9.04
+Memphis,Real Estate,Property Management,78,2.0,1.05
+Memphis,Real Estate,Commercial Real Estate,3478,2.0,46.38
+Memphis,Real Estate,Residential Sales,3942,2.0,52.57
+Memphis,Media & Entertainment,Broadcasting,2924,1.0,78.0
+Memphis,Media & Entertainment,Music Production,643,1.0,17.15
+Memphis,Media & Entertainment,Event Management,181,1.0,4.85
+Memphis,Non-Profit,Charitable Organizations,6961,3.0,61.88
+Memphis,Non-Profit,Foundations,3502,3.0,31.14
+Memphis,Non-Profit,Community Services,785,3.0,6.99

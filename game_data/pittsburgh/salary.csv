@@ -1,0 +1,15 @@
+metro,sector,avg_salary,min_salary,max_salary,salary_spread
+Pittsburgh,Healthcare,76440,41562,111317,69755
+Pittsburgh,Education,50960,27613,74306,46693
+Pittsburgh,Technology,90160,47109,133210,86101
+Pittsburgh,Professional Services,69580,35122,104037,68915
+Pittsburgh,Retail & Hospitality,37240,16937,57542,40605
+Pittsburgh,Manufacturing,52920,28933,76906,47973
+Pittsburgh,Financial Services,73500,43027,103972,60945
+Pittsburgh,Construction,54880,26944,82815,55871
+Pittsburgh,Government,66640,39706,93573,53867
+Pittsburgh,Logistics & Transportation,56840,31955,81724,49769
+Pittsburgh,Energy & Utilities,80360,50973,109746,58773
+Pittsburgh,Real Estate,62720,40450,84989,44539
+Pittsburgh,Media & Entertainment,53900,24657,83142,58485
+Pittsburgh,Non-Profit,47040,22711,71368,48657

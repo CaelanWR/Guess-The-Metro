@@ -1,0 +1,57 @@
+metro,sector,subsector,headcount,sector_pct,subsector_pct
+Houston,Energy & Utilities,Oil & Gas,82225,23.0,55.0
+Houston,Energy & Utilities,Renewable Energy,22425,23.0,15.0
+Houston,Energy & Utilities,Electric Utilities,26910,23.0,18.0
+Houston,Energy & Utilities,Water & Waste,17940,23.0,12.0
+Houston,Healthcare,Hospitals,34125,15.0,35.0
+Houston,Healthcare,Medical Research,29250,15.0,30.0
+Houston,Healthcare,Pharmaceutical,4875,15.0,5.0
+Houston,Healthcare,Healthcare Support,19500,15.0,20.0
+Houston,Healthcare,Outpatient Care,9750,15.0,10.0
+Houston,Manufacturing,Industrial Equipment,21125,13.0,25.0
+Houston,Manufacturing,Food Processing,10140,13.0,12.0
+Houston,Manufacturing,Automotive Parts,6760,13.0,8.0
+Houston,Manufacturing,Chemicals,29574,13.0,35.0
+Houston,Manufacturing,Electronics,16900,13.0,20.0
+Houston,Professional Services,Consulting,11461,10.0,17.63
+Houston,Professional Services,Legal Services,31810,10.0,48.94
+Houston,Professional Services,Accounting,17614,10.0,27.1
+Houston,Professional Services,Marketing & PR,2914,10.0,4.48
+Houston,Professional Services,Architecture,1199,10.0,1.84
+Houston,Logistics & Transportation,Freight & Shipping,10722,9.0,18.33
+Houston,Logistics & Transportation,Warehousing,280,9.0,0.48
+Houston,Logistics & Transportation,Courier Services,9189,9.0,15.71
+Houston,Logistics & Transportation,Logistics Management,29374,9.0,50.21
+Houston,Logistics & Transportation,Air Cargo,8933,9.0,15.27
+Houston,Technology,Software Development,4433,8.0,8.53
+Houston,Technology,IT Services,9302,8.0,17.89
+Houston,Technology,Data Analytics,5531,8.0,10.64
+Houston,Technology,Cybersecurity,7118,8.0,13.69
+Houston,Technology,Cloud Services,25612,8.0,49.26
+Houston,Construction,Commercial Construction,3642,7.0,8.01
+Houston,Construction,Residential Construction,24256,7.0,53.31
+Houston,Construction,Infrastructure,17600,7.0,38.68
+Houston,Retail & Hospitality,Retail Stores,21459,6.0,55.02
+Houston,Retail & Hospitality,Restaurants & Bars,7079,6.0,18.15
+Houston,Retail & Hospitality,Hotels & Tourism,10461,6.0,26.82
+Houston,Financial Services,Banking,356,4.0,1.37
+Houston,Financial Services,Insurance,1924,4.0,7.4
+Houston,Financial Services,Investment Management,22286,4.0,85.72
+Houston,Financial Services,Financial Advisory,1432,4.0,5.51
+Houston,Government,Federal Agencies,1262,2.0,9.71
+Houston,Government,Local Government,6124,2.0,47.11
+Houston,Government,State Government,77,2.0,0.6
+Houston,Government,Military & Defense,5535,2.0,42.58
+Houston,Education,Higher Education,1629,2.0,12.53
+Houston,Education,K-12 Schools,618,2.0,4.76
+Houston,Education,Private Schools,5872,2.0,45.17
+Houston,Education,Training & Development,4879,2.0,37.53
+Houston,Real Estate,Property Management,2699,1.0,41.53
+Houston,Real Estate,Commercial Real Estate,1708,1.0,26.28
+Houston,Real Estate,Residential Sales,2092,1.0,32.19
+Houston,Media & Entertainment,Broadcasting,1124,1.0,17.3
+Houston,Media & Entertainment,Music Production,662,1.0,10.2
+Houston,Media & Entertainment,Event Management,4712,1.0,72.5
+Houston,Non-Profit,Charitable Organizations,1564,1.0,24.06
+Houston,Non-Profit,Foundations,4429,1.0,68.15
+Houston,Non-Profit,Community Services,506,1.0,7.79

@@ -1,0 +1,69 @@
+metro,sector,avg_salary,min_salary,max_salary,salary_spread
+Memphis,Logistics & Transportation,53360,29399,77320,47921
+Memphis,Healthcare,71760,46150,97369,51219
+Memphis,Manufacturing,49680,23256,76103,52847
+Memphis,Retail & Hospitality,34960,20914,49005,28091
+Memphis,Professional Services,65320,33802,96837,63035
+Memphis,Technology,84640,49739,119540,69801
+Memphis,Education,47840,26119,69560,43441
+Memphis,Financial Services,69000,37305,100694,63389
+Memphis,Construction,51520,31583,71456,39873
+Memphis,Government,62560,28532,96587,68055
+Memphis,Energy & Utilities,75440,37340,113539,76199
+Memphis,Real Estate,58880,27208,90551,63343
+Memphis,Media & Entertainment,50600,23834,77365,53531
+Memphis,Non-Profit,44160,23423,64896,41473
+Charlotte,Financial Services,78750,49299,108200,58901
+Charlotte,Healthcare,81900,47704,116095,68391
+Charlotte,Technology,96600,44572,148627,104055
+Charlotte,Professional Services,74550,43638,105461,61823
+Charlotte,Retail & Hospitality,39900,21795,58004,36209
+Charlotte,Manufacturing,56700,28882,84517,55635
+Charlotte,Logistics & Transportation,60900,35155,86644,51489
+Charlotte,Construction,58800,26791,90808,64017
+Charlotte,Education,54600,24980,84219,59239
+Charlotte,Real Estate,67200,40296,94103,53807
+Charlotte,Government,71400,39309,103490,64181
+Charlotte,Energy & Utilities,86100,50783,121416,70633
+Charlotte,Media & Entertainment,57750,34247,81252,47005
+Charlotte,Non-Profit,50400,32388,68411,36023
+DC,Government,85000,43142,126857,83715
+DC,Professional Services,88750,53476,124023,70547
+DC,Technology,115000,67265,162734,95469
+DC,Healthcare,97500,48818,146181,97363
+DC,Education,65000,33804,96195,62391
+DC,Retail & Hospitality,47500,22807,72192,49385
+DC,Financial Services,93750,48607,138892,90285
+DC,Logistics & Transportation,72500,38884,106115,67231
+DC,Non-Profit,60000,37875,82124,44249
+DC,Real Estate,80000,46116,113883,67767
+DC,Construction,70000,41787,98212,56425
+DC,Media & Entertainment,68750,41332,96167,54835
+Pittsburgh,Healthcare,76440,41562,111317,69755
+Pittsburgh,Education,50960,27613,74306,46693
+Pittsburgh,Technology,90160,47109,133210,86101
+Pittsburgh,Professional Services,69580,35122,104037,68915
+Pittsburgh,Retail & Hospitality,37240,16937,57542,40605
+Pittsburgh,Manufacturing,52920,28933,76906,47973
+Pittsburgh,Financial Services,73500,43027,103972,60945
+Pittsburgh,Construction,54880,26944,82815,55871
+Pittsburgh,Government,66640,39706,93573,53867
+Pittsburgh,Logistics & Transportation,56840,31955,81724,49769
+Pittsburgh,Energy & Utilities,80360,50973,109746,58773
+Pittsburgh,Real Estate,62720,40450,84989,44539
+Pittsburgh,Media & Entertainment,53900,24657,83142,58485
+Pittsburgh,Non-Profit,47040,22711,71368,48657
+Houston,Energy & Utilities,88560,50974,126145,75171
+Houston,Healthcare,84240,41674,126805,85131
+Houston,Manufacturing,58320,33932,82707,48775
+Houston,Professional Services,76680,35567,117792,82225
+Houston,Logistics & Transportation,62640,29961,95318,65357
+Houston,Technology,99360,56059,142660,86601
+Houston,Construction,60480,30229,90730,60501
+Houston,Retail & Hospitality,41040,20482,61597,41115
+Houston,Financial Services,81000,50979,111020,60041
+Houston,Government,73440,34479,112400,77921
+Houston,Education,56160,30829,81490,50661
+Houston,Real Estate,69120,33503,104736,71233
+Houston,Media & Entertainment,59400,34807,83992,49185
+Houston,Non-Profit,51840,24411,79268,54857

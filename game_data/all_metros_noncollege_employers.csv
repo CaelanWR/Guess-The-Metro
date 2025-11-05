@@ -1,0 +1,16 @@
+metro,company,sector,headcount,avg_salary,education_type
+Memphis,FedEx,Logistics & Transportation,28000,40020,noncollege
+Memphis,Amazon Fulfillment,Logistics & Transportation,12000,40020,noncollege
+Memphis,AutoZone,Retail & Hospitality,8500,26220,noncollege
+Charlotte,Bank of America Operations,Financial Services,15000,59062,noncollege
+Charlotte,[Name of City] Douglas Airport,Logistics & Transportation,8500,45675,noncollege
+Charlotte,Food Lion,Retail & Hospitality,7200,29925,noncollege
+DC,Marriott Hotels,Retail & Hospitality,11000,35625,noncollege
+DC,[Name of City] Metro,Logistics & Transportation,9500,54375,noncollege
+DC,Giant Food,Retail & Hospitality,7800,35625,noncollege
+Pittsburgh,UPMC Support Services,Healthcare,14000,57330,noncollege
+Pittsburgh,Giant Eagle,Retail & Hospitality,9500,27930,noncollege
+Pittsburgh,Port Authority,Logistics & Transportation,3200,42630,noncollege
+Houston,[Name of City] Methodist Support,Healthcare,12000,63180,noncollege
+Houston,Shell Oil Operations,Energy & Utilities,8500,66420,noncollege
+Houston,H-E-B,Retail & Hospitality,11500,30780,noncollege

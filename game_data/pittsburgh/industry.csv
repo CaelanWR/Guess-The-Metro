@@ -1,0 +1,57 @@
+metro,sector,subsector,headcount,sector_pct,subsector_pct
+Pittsburgh,Healthcare,Hospitals,39650,26.0,50.0
+Pittsburgh,Healthcare,Medical Research,15860,26.0,20.0
+Pittsburgh,Healthcare,Pharmaceutical,3965,26.0,5.0
+Pittsburgh,Healthcare,Healthcare Support,7930,26.0,10.0
+Pittsburgh,Healthcare,Outpatient Care,11895,26.0,15.0
+Pittsburgh,Education,Higher Education,25162,15.0,55.0
+Pittsburgh,Education,K-12 Schools,11437,15.0,25.0
+Pittsburgh,Education,Private Schools,5490,15.0,12.0
+Pittsburgh,Education,Training & Development,3660,15.0,8.0
+Pittsburgh,Technology,Software Development,10980,12.0,30.0
+Pittsburgh,Technology,IT Services,9150,12.0,25.0
+Pittsburgh,Technology,Data Analytics,7320,12.0,20.0
+Pittsburgh,Technology,Cybersecurity,5490,12.0,15.0
+Pittsburgh,Technology,Cloud Services,3660,12.0,10.0
+Pittsburgh,Professional Services,Consulting,428,9.0,1.56
+Pittsburgh,Professional Services,Legal Services,4001,9.0,14.58
+Pittsburgh,Professional Services,Accounting,19325,9.0,70.4
+Pittsburgh,Professional Services,Marketing & PR,632,9.0,2.3
+Pittsburgh,Professional Services,Architecture,3061,9.0,11.15
+Pittsburgh,Retail & Hospitality,Retail Stores,12407,9.0,45.2
+Pittsburgh,Retail & Hospitality,Restaurants & Bars,7982,9.0,29.08
+Pittsburgh,Retail & Hospitality,Hotels & Tourism,7059,9.0,25.72
+Pittsburgh,Manufacturing,Industrial Equipment,5555,8.0,22.77
+Pittsburgh,Manufacturing,Food Processing,2041,8.0,8.37
+Pittsburgh,Manufacturing,Automotive Parts,1592,8.0,6.53
+Pittsburgh,Manufacturing,Chemicals,7595,8.0,31.13
+Pittsburgh,Manufacturing,Electronics,7613,8.0,31.2
+Pittsburgh,Financial Services,Banking,6285,6.0,34.35
+Pittsburgh,Financial Services,Insurance,7614,6.0,41.61
+Pittsburgh,Financial Services,Investment Management,2230,6.0,12.19
+Pittsburgh,Financial Services,Financial Advisory,2168,6.0,11.85
+Pittsburgh,Construction,Commercial Construction,5058,4.0,41.46
+Pittsburgh,Construction,Residential Construction,3316,4.0,27.19
+Pittsburgh,Construction,Infrastructure,3824,4.0,31.35
+Pittsburgh,Government,Federal Agencies,4141,4.0,33.95
+Pittsburgh,Government,Local Government,5754,4.0,47.17
+Pittsburgh,Government,State Government,1075,4.0,8.81
+Pittsburgh,Government,Military & Defense,1227,4.0,10.06
+Pittsburgh,Logistics & Transportation,Freight & Shipping,375,3.0,4.1
+Pittsburgh,Logistics & Transportation,Warehousing,3281,3.0,35.86
+Pittsburgh,Logistics & Transportation,Courier Services,139,3.0,1.52
+Pittsburgh,Logistics & Transportation,Logistics Management,2381,3.0,26.03
+Pittsburgh,Logistics & Transportation,Air Cargo,2973,3.0,32.49
+Pittsburgh,Energy & Utilities,Oil & Gas,1583,2.0,25.97
+Pittsburgh,Energy & Utilities,Renewable Energy,4192,2.0,68.73
+Pittsburgh,Energy & Utilities,Electric Utilities,145,2.0,2.38
+Pittsburgh,Energy & Utilities,Water & Waste,178,2.0,2.93
+Pittsburgh,Real Estate,Property Management,2281,1.0,74.8
+Pittsburgh,Real Estate,Commercial Real Estate,589,1.0,19.32
+Pittsburgh,Real Estate,Residential Sales,179,1.0,5.88
+Pittsburgh,Media & Entertainment,Broadcasting,919,1.0,30.13
+Pittsburgh,Media & Entertainment,Music Production,1828,1.0,59.95
+Pittsburgh,Media & Entertainment,Event Management,302,1.0,9.92
+Pittsburgh,Non-Profit,Charitable Organizations,5323,2.0,87.27
+Pittsburgh,Non-Profit,Foundations,486,2.0,7.98
+Pittsburgh,Non-Profit,Community Services,289,2.0,4.75
